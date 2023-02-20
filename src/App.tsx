@@ -438,7 +438,7 @@ function App() {
 
         <img
           ref={ringRef}
-          src={ringSrc || "/rui-mar-touryuumon-icon-ring.png"}
+          src={ringSrc || "./rui-mar-touryuumon-icon-ring.png"}
           className="w-full h-full absolute top-0 left-0"
         />
       </div>
