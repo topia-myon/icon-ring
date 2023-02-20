@@ -191,11 +191,11 @@ function App() {
     backgroundTooltipCtx.drawImage(
       canvas,
       Math.round(
-        (backgroundTooltipPosition.x - canvasRect.x - 64 / ZOOM) *
+        (backgroundTooltipPosition.x - canvasRect.left - 64 / ZOOM) *
           (CANVAS_SIZE / size)
       ),
       Math.round(
-        (backgroundTooltipPosition.y - canvasRect.y - 64 / ZOOM) *
+        (backgroundTooltipPosition.y - canvasRect.top - 64 / ZOOM) *
           (CANVAS_SIZE / size)
       ),
       (128 / ZOOM) * (CANVAS_SIZE / size),
