@@ -1,0 +1,23 @@
+@font-face {
+  font-family: Azuki;
+  font-weight: 400;
+  src: url("/fonts/azuki.ttf");
+}
+
+@font-face {
+  font-family: Azuki;
+  font-weight: 600;
+  src: url("/fonts/azukiB.ttf");
+}
+
+:root,
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: Azuki, sans-serif;
+  touch-action: none;
+}
