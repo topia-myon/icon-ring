@@ -214,9 +214,6 @@ function App() {
     <div
       ref={container}
       className="h-full grid place-items-center relative z-0"
-      style={{
-        backgroundColor: `rgb(${backgroundColor.r}, ${backgroundColor.g}, ${backgroundColor.b})`,
-      }}
       onTouchStart={(e) => {
         if (e.touches.length === 1) {
           if (isSelectingBackground) {
