@@ -395,7 +395,7 @@ function App() {
             if (!ctx) return;
 
             if (image) {
-              draw(ctx, img, zoom, origin, isSelectingBackground);
+              draw(ctx, img, zoom, origin, true);
             } else {
               ctx.beginPath();
               ctx.fillStyle = `rgb(${backgroundColor.r}, ${backgroundColor.g}, ${backgroundColor.b})`;
